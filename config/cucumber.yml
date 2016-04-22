@@ -1,2 +1,4 @@
-ios:      OS='ios'
-android:  OS='android'
+<% opts = "-f  'Timestamped::HtmlFormatter' -o build/report.html -f 'Timestamped::PrettyFormatter'" %>
+
+ios:     <%= opts %> OS='ios'
+android: <%= opts %> OS='android'

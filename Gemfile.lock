@@ -36,6 +36,8 @@ GEM
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
       websocket (~> 1.0)
+    timestamped-scenarios (0.1.0)
+      cucumber
     tomlrb (1.2.0)
     websocket (1.2.3)
 
@@ -45,6 +47,7 @@ PLATFORMS
 DEPENDENCIES
   appium_lib
   cucumber
+  timestamped-scenarios
 
 BUNDLED WITH
    1.11.2

@@ -26,4 +26,5 @@ opts = case ENV['OS'].to_s
            raise "Unknown OS type: #{ENV['OS']}"
        end
 
-Appium::Driver.new(opts).start_driver
+$driver = Appium::Driver.new(opts)
+$driver.start_driver
