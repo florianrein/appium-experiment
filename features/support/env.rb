@@ -1,4 +1,5 @@
 require 'appium_lib'
+require 'rspec/expectations'
 
 def android_caps
   apk_path = File.join(File.dirname(__FILE__), '..', '..', 'android_apk', 'ContactManager.apk')

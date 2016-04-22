@@ -31,6 +31,19 @@ GEM
     multi_test (0.1.2)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
+    rspec (3.4.0)
+      rspec-core (~> 3.4.0)
+      rspec-expectations (~> 3.4.0)
+      rspec-mocks (~> 3.4.0)
+    rspec-core (3.4.2)
+      rspec-support (~> 3.4.0)
+    rspec-expectations (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-mocks (3.4.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-support (3.4.1)
     rubyzip (1.2.0)
     selenium-webdriver (2.53.0)
       childprocess (~> 0.5)
@@ -47,6 +60,7 @@ PLATFORMS
 DEPENDENCIES
   appium_lib
   cucumber
+  rspec
   timestamped-scenarios
 
 BUNDLED WITH
