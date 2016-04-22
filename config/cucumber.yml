@@ -1,4 +1,4 @@
 <% opts = "-f  'Timestamped::HtmlFormatter' -o build/report.html -f 'Timestamped::PrettyFormatter'" %>
 
-ios:     <%= opts %> OS='ios'
-android: <%= opts %> OS='android'
+ios:     <%= opts %> OS='ios'     -t @ios_test_app
+android: <%= opts %> OS='android' -t @contacts_app
