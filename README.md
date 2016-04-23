@@ -1,5 +1,4 @@
 # appium-experiment
-
+*WIP*
 TODO 
-- cucumber steps
-- After hook to quit the driver
+- more cucumber steps with appium calls
